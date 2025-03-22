@@ -42,7 +42,7 @@ class Config(object):
     STRING_SESSION = os.environ.get("STRING_SESSION", "")
     
     # database config
-    DB_NAME = os.environ.get("DB_NAME","HarshithXDev")     
+    DB_NAME = os.environ.get("DB_NAME","cluster0")     
     DB_URL = os.environ.get("DB_URL","")
  
     # other configs
